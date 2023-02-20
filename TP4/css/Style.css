@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course {
+    inline-size: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .course img {
+    inline-size: 100%;
+    block-size: auto;
+    margin-block-end: 20px;
+  }
+  
+  .course-title {
+    font-size: 20px;
+    margin-block-end: 20px;
+  }
+  
+  .course-summary {
+    font-size: 14px;
+    margin-block-end: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0077c9;
+  }
+  
+  .back-to-home {
+    margin-block-start: 20px;
+    display: block;
+    font-size: 14px;
+  }
+  
+  .course-content {
+    margin-block-start: 20px;
+  }
+  
+  .course-content h2 {
+    font-size: 24px;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+  }
+  
+  .course-content h3 {
+    font-size: 18px;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+  }
+  
+  .download-pdf {
+    display: block;
+    margin-block-start: 20px;
+    font-size: 14px;
+  }
+  
+  .send-email {
+    display: block;
+    margin-block-start: 20px;
+    font-size: 14px;
+  }
+
+  .CSS, .HTML, .JS{
+    inline-size: 25%;
+    block-size: 25%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .texte{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 15vh;
+    }
+
+    .text{
+        text-align: center;
+    }
+  
+  header h1 {
+    text-align: center;
+  }
+  section {
+    display: inline-block;
+    vertical-align: top;
+    inline-size: 30%;
+    justify-content: space-between;
+    margin-inline-start: 5vh;
+    border: black 3px solid;
+    box-shadow: inset;
+    border-radius: 30px;
+    background-color: #333;
+
+
+    }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .text{
+    color: #f5f5f5;
+    align-items: center;
+    text-align: center;
+  }
+  .lien{
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    inline-size: 80%;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    inline-size: 80%;
+    margin: 20px auto;
+  }
